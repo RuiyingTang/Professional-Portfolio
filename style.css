@@ -111,7 +111,7 @@ img {
 }
 .project-wrap {
   display: grid;
-  grid-template: 550px 550px / repeat(3, 1fr);
+  grid-template: 500px 500px / repeat(3, 1fr);
   align-items: stretch;
   align-content: stretch;
   grid-gap: 30px;
@@ -130,7 +130,7 @@ img {
 .project-img {
   overflow: hidden;
   width: 100%;
-  height: 300px;
+  height: 250px;
   border: 1px solid var(--gray-color);
 }
 .project-description {
@@ -143,6 +143,7 @@ img {
   height: 600px;
   overflow: hidden;
   position: relative;
+  background: url(img/about-bg.jpeg) no-repeat bottom center/cover;
 }
 .about-text {
   position: absolute;
@@ -150,6 +151,7 @@ img {
   left: 25vw;
   line-height: 1.5rem;
   padding-right: 60px;
+  overflow: hidden;
 }
 /* footer */
 footer {
@@ -168,4 +170,59 @@ footer .container {
 .menu li a:hover {
   color: black;
   text-decoration: underline;
+}
+.mobile-contact {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .header {
+    max-width: 100px;
+    height: 33px;
+    padding-top: 10px;
+  }
+  .intro {
+    grid-template-rows: 300px;
+  }
+  .intro-text h3 {
+    font-size: 1rem;
+  }
+  .project-wrap {
+    display: grid;
+    grid-template: 500px/1fr;
+    overflow: hidden;
+    padding-bottom: 0;
+  }
+  .project4,
+  .project5,
+  .project6 {
+    display: none;
+  }
+  .about {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .about-text {
+    top: 0;
+    left: 0;
+    padding: 20px;
+    line-height: 1rem;
+    margin-top: 0;
+  }
+  .about-text p {
+    font-size: 12px;
+  }
+  .menu {
+    display: none;
+  }
+  .mobile-contact {
+    display: block;
+  }
+  .mobile-contact:hover {
+    color: white;
+    text-decoration: underline;
+  }
 }

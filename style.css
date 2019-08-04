@@ -37,6 +37,7 @@ ul {
 img {
   width: 100%;
   height: 100%;
+  /* object-fit: cover; */
 }
 .main-container {
   max-width: var(--max-width);
@@ -115,9 +116,7 @@ img {
   align-items: stretch;
   align-content: stretch;
   grid-gap: 30px;
-  padding-bottom: 30px;
-  /* margin-bottom: 60px; */
-  /* border-bottom: 1px solid var(--gray-color); */
+  margin-bottom: 30px;
 }
 .project {
   border: 1px solid rgb(233, 230, 230);
@@ -130,12 +129,12 @@ img {
 .project-img {
   overflow: hidden;
   width: 100%;
-  height: 250px;
+  height: 300px;
   border: 1px solid var(--gray-color);
 }
 .project-description {
   padding-left: 20px;
-  line-height: 1.5rem;
+  line-height: 1.2rem;
 }
 /* About me */
 .about {
@@ -149,7 +148,7 @@ img {
   position: absolute;
   top: 20px;
   left: 25vw;
-  line-height: 1.5rem;
+  line-height: 1.4rem;
   padding-right: 60px;
   overflow: hidden;
 }

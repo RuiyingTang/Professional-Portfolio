@@ -182,7 +182,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: opacity 1s ease-in-out;
+  transition: opacity 0.8s ease-in-out;
 }
 .project-description p {
   margin-bottom: 30px;

@@ -124,6 +124,9 @@ a {
 .interests {
   margin-bottom: 40px;
 }
+.interests > p {
+  margin-bottom: 30px;
+}
 /* Footer */
 footer {
   grid-area: footer;

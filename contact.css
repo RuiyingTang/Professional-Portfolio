@@ -136,13 +136,10 @@ footer a:hover {
   .header .container {
     justify-content: center;
   }
-  .contact {
-    background: var(--green-color);
+  footer {
+    padding: 10px;
   }
   footer a {
     display: none;
-  }
-  footer i {
-    background: var(--green-color);
   }
 }

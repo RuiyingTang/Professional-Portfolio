@@ -83,7 +83,7 @@ ul {
 }
 /* Contact me */
 .contact {
-  background: #bbbbbb;
+  background: gray;
   padding-bottom: 30px;
 }
 label {
@@ -112,7 +112,7 @@ footer {
 footer i {
   border-radius: 50%;
   padding: 5px;
-  background: #bbb;
+  background: gray;
   margin-left: 50px;
 }
 

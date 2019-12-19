@@ -263,8 +263,14 @@ footer i {
     grid-template: 400px/1fr;
   }
 
+  .project2,
+  .project3,
   .project5,
-  .project6 {
+  .project6,
+  .project7,
+  .project8,
+  .project9,
+  .project12 {
     display: none;
   }
   .about {

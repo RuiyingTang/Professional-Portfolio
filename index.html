@@ -18,290 +18,162 @@
       integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
       crossorigin="anonymous"
     />
+
     <link rel="stylesheet" href="style.css" />
     <title>Ruiying Tang's Portfolio</title>
   </head>
   <body>
     <main class="main-container">
       <header class="header">
-        <div class="container">
-          <img
-            src="https://static1.squarespace.com/static/5c5af0c29b8fe80e25a11fdb/t/5c5af7477817f7f95166af12/1561547531877"
-            alt="Noah Road"
-          />
+        <nav class="container">
+          <a href="index.html" class="logo">
+            <?xml version="1.0" ?>
+            <svg
+              style="enable-background: new 0 0 24 24"
+              version="1.1"
+              viewBox="0 0 24 24"
+              xml:space="preserve"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <g id="info" />
+              <g id="icons">
+                <g id="statistics">
+                  <path
+                    d="M5,12H3c-1.1,0-2,0.9-2,2v6c0,1.1,0.9,2,2,2h2c1.1,0,2-0.9,2-2v-6C7,12.9,6.1,12,5,12z"
+                    fill="white"
+                  />
+                  <path
+                    d="M13,2h-2C9.9,2,9,2.9,9,4v16c0,1.1,0.9,2,2,2h2c1.1,0,2-0.9,2-2V4C15,2.9,14.1,2,13,2z"
+                    fill="white"
+                  />
+                  <path
+                    d="M21,8h-2c-1.1,0-2,0.9-2,2v10c0,1.1,0.9,2,2,2h2c1.1,0,2-0.9,2-2V10C23,8.9,22.1,8,21,8z"
+                    fill="white"
+                  />
+                </g>
+              </g>
+            </svg>
+
+            TANG.data
+          </a>
+
           <ul class="menu">
-            <li><a class="primary-color" href="index.html">Portfolio</a></li>
+            <li><a href="index.html">Portfolio</a></li>
             <!-- <li class="resume"><a href="#">Resume</a></li> -->
-            <!-- <li><a href="contact.html">Contact</a></li> -->
+            <li><a href="projects.html">Projecten</a></li>
+            <li><a href="webdevelop.html">Web Development</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
-        </div>
+        </nav>
       </header>
+
       <section class="intro">
         <div class="intro-container">
           <div class="intro-text">
-            <h1>Ruiying Tang</h1>
-            <h2>Front-end Developer</h2>
-            <p>
-              <a target="_blank" href="https://github.com/RuiyingTang"
-                ><i class="fab fa-git-square fa-2x"></i
-              ></a>
-              <a
-                target="_blank"
-                title="follow me on linkedin"
-                href="https://www.linkedin.com/in/ruiying-tang-19156b31/"
-                ><i class="fab fa-linkedin-in fa-2x"></i
-              ></a>
-              <a
-                target="_blank"
-                title="follow me on instagram"
-                href="https://www.instagram.com/yiyatanger/?hl=en"
-                ><i class="fab fa-instagram fa-2x"></i>
-              </a>
-            </p>
+            <div class="intro-title">
+              <p>Ruiying Tang</p>
+              <h1>DATA ANALYST</h1>
+            </div>
+            <div class="goal">
+              <!-- <h2>Goal</h2> -->
+              <p>
+                "the goal is to turn <span>Data</span> into
+                <span>information</span> & information into
+                <span>insight</span>"
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="work" class="work">
-        <h1>My Work</h1>
+      <section id="portfolio" class="work">
+        <h1>Portfolio</h1>
 
         <div class="project-wrap">
           <div class="container">
             <div class="project project1">
-              <a href="https://ruiyingtang.github.io/Paradiso/">
-                <h4 class="uppercase project-title">PARADISO</h4>
-                <div class="project-img">
-                  <img src="img/Paradiso.jpg" alt="Ola-Website" />
-                </div>
-                <div class="project-description">
-                  <p>
-                    <span class="btn">rebuilt</span
-                    ><span class="btn">html5</span><span class="btn">css</span
-                    ><span class="btn">grid</span><span class="btn">flex</span>
-                    <span class="btn">responsive</span>
-                  </p>
+              <div class="project-img">
+                <img src="img/carzone-overview.png" alt="CarZone" />
+              </div>
+              <div class="project-description">
+                <ul>
+                  <li class="label">Data collection</li>
+                  <li class="label">Data integrations & cleaning</li>
+                  <li class="label">DAX</li>
+                  <li class="label">Dashboard in Power BI</li>
+                  <li class="label">Model building</li>
+                </ul>
+                <a href="#">
                   <span class="btn"
-                    >See this work<i class="fas fa-arrow-circle-right"></i
-                  ></span>
-                </div>
-              </a>
+                    >See this work<i
+                      class="fas fa-arrow-circle-right"
+                    ></i></span
+                ></a>
+              </div>
             </div>
-            <!-- 
-            <div class="project project2">
-              <a href="https://ruiyingtang.github.io/Pickwick/">
-                <h4 class="uppercase project-title">Pickwick</h4>
-                <div class="project-img">
-                  <img src="img/Pickwick.jpg" alt="Pickwick" />
-                </div>
-                <div class="project-description">
-                  <p>
-                    <span class="btn">rebuilt</span
-                    ><span class="btn">html5</span><span class="btn">css</span
-                    ><span class="btn">grid</span><span class="btn">flex</span>
-                    <span class="btn">responsive</span>
-                  </p>
-                  <span class="btn"
-                    >See this work<i class="fas fa-arrow-circle-right"></i
-                  ></span>
-                </div>
-              </a>
-            </div> -->
 
-            <!-- <div class="project project3 ">
-              <a href="https://ruiyingtang.github.io/microsoft-homepage/">
-                <h4 class="uppercase project-title">microsoft</h4>
-                <div class="project-img">
-                  <img src="img/Microsoft.png" alt="Microsoft" />
-                </div>
-                <div class="project-description">
-                  <p>
-                    <span class="btn">rebuilt</span
-                    ><span class="btn">html5</span><span class="btn">css</span
-                    ><span class="btn">flex</span>
-                    <span class="btn">responsive</span>
-                  </p>
+            <div class="project project2">
+              <div class="project-img">
+                <img src="img/levensverwachting.png" alt="Life expectance" />
+              </div>
+              <div class="project-description">
+                <ul>
+                  <li class="label">Data collection</li>
+                  <li class="label">Data integrations & cleaning</li>
+                  <li class="label">DAX</li>
+                  <li class="label">Dashboard in Power BI</li>
+                  <li class="label">Model building</li>
+                </ul>
+                <a href="#">
                   <span class="btn"
-                    >See this work<i class="fas fa-arrow-circle-right"></i
-                  ></span>
-                </div>
-              </a>
-            </div> -->
+                    >See this work<i
+                      class="fas fa-arrow-circle-right"
+                    ></i></span
+                ></a>
+              </div>
+            </div>
+
+            <div class="project project3">
+              <div class="project-img">
+                <img src="img/artsales.png" alt="Art Sales" />
+              </div>
+              <div class="project-description">
+                <ul>
+                  <li class="label">Data collection</li>
+                  <li class="label">Data integrations & cleaning</li>
+                  <li class="label">DAX</li>
+                  <li class="label">Dashboard in Power BI</li>
+                  <li class="label">Model building</li>
+                </ul>
+                <a href="#">
+                  <span class="btn"
+                    >See this work<i
+                      class="fas fa-arrow-circle-right"
+                    ></i></span
+                ></a>
+              </div>
+            </div>
 
             <div class="project project4">
-              <a href="https://ruiyingtang.github.io/efteling/">
-                <h4 class="uppercase project-title">Efteling</h4>
-                <div class="project-img">
-                  <img src="img/Efteling.jpg" alt="Efteling" />
-                </div>
-                <div class="project-description">
-                  <p>
-                    <span class="btn">rebuilt</span
-                    ><span class="btn">html5</span><span class="btn">css</span
-                    ><span class="btn">grid</span><span class="btn">flex</span>
-                    <span class="btn">responsive</span>
-                  </p>
+              <div class="project-img">
+                <img src="img/artsales.png" alt="Art Sales" />
+              </div>
+              <div class="project-description">
+                <ul>
+                  <li class="label">Data collection</li>
+                  <li class="label">Data integrations & cleaning</li>
+                  <li class="label">DAX</li>
+                  <li class="label">Dashboard in Power BI</li>
+                  <li class="label">Model building</li>
+                </ul>
+                <a href="#">
                   <span class="btn"
-                    >See this work<i class="fas fa-arrow-circle-right"></i
-                  ></span>
-                </div>
-              </a>
-            </div>
-
-            <!-- <div class="project project5">
-              <a href="https://ruiyingtang.github.io/newsgrid-website/">
-                <h4 class="uppercase project-title">Newsgrid</h4>
-                <div class="project-img">
-                  <img src="img/Newsgrid.jpg" alt="Paradiso" />
-                </div>
-                <div class="project-description">
-                  <p>
-                    <span class="btn">rebuilt</span
-                    ><span class="btn">html5</span><span class="btn">css</span
-                    ><span class="btn">grid</span>
-                    <span class="btn">responsive</span>
-                  </p>
-                  <span class="btn"
-                    >See this work<i class="fas fa-arrow-circle-right"></i
-                  ></span>
-                </div>
-              </a>
-            </div> -->
-
-            <div class="project project6">
-              <a href="https://ruiyingtang.github.io/ola-website/">
-                <h4 class="uppercase project-title">Ola</h4>
-                <div class="project-img">
-                  <img src="img/Ola.png" alt="News Grid" />
-                </div>
-                <div class="project-description">
-                  <p>
-                    <span class="btn">rebuilt</span
-                    ><span class="btn">html5</span><span class="btn">css</span
-                    ><span class="btn">flex</span>
-                    <span class="btn">responsive</span>
-                  </p>
-                  <span class="btn"
-                    >See this work<i class="fas fa-arrow-circle-right"></i
-                  ></span>
-                </div>
-              </a>
-            </div>
-
-            <div class="project project7">
-              <a href="https://ruiyingtang.github.io/Githubfinder/">
-                <h4 class="uppercase project-title">GitHub Finder</h4>
-                <div class="project-img">
-                  <img src="img/GitHubFinder.png" alt="GitHub Finder" />
-                </div>
-                <div class="project-description">
-                  <p>
-                    <span class="btn">JavaScript</span
-                    ><span class="btn">OOP</span
-                    ><span class="btn">Async JS</span
-                    ><span class="btn">Dom manipulation</span
-                    ><span class="btn">css</span>
-                    <span class="btn">html5</span>
-                  </p>
-                  <span class="btn"
-                    >See this work<i class="fas fa-arrow-circle-right"></i
-                  ></span>
-                </div>
-              </a>
-            </div>
-
-            <div class="project project8">
-              <a href="https://ruiyingtang.github.io/chore-door/">
-                <h4 class="uppercase project-title">Chore Door</h4>
-                <div class="project-img">
-                  <img src="img/choredoor.png" alt="Chore Door" />
-                </div>
-                <div class="project-description">
-                  <p>
-                    <span class="btn">JavaScript</span
-                    ><span class="btn">Dom manipulation</span
-                    ><span class="btn">css</span>
-                    <span class="btn">html5</span>
-                  </p>
-                  <span class="btn"
-                    >See this work<i class="fas fa-arrow-circle-right"></i
-                  ></span>
-                </div>
-              </a>
-            </div>
-
-            <div class="project project9">
-              <a href="https://ruiyingtang.github.io/my-firstapp/">
-                <h4 class="uppercase project-title">tic-tac-toe game</h4>
-                <div class="project-img">
-                  <img src="img/game.png" alt="Game" />
-                </div>
-                <div class="project-description">
-                  <p>
-                    <span class="btn">React.js</span
-                    ><span class="btn">JavaScript</span>
-                    <span class="btn">html5</span><span class="btn">css</span>
-                  </p>
-                  <span class="btn"
-                    >See this work<i class="fas fa-arrow-circle-right"></i
-                  ></span>
-                </div>
-              </a>
-            </div>
-            <div class="project project10">
-              <a href="https://ruiyingtang.github.io/bootstrap/">
-                <h4 class="uppercase project-title">Adhoc</h4>
-                <div class="project-img">
-                  <img src="img/Adhoc.png" alt="Adhoc" />
-                </div>
-                <div class="project-description">
-                  <p>
-                    <span class="btn">JavaScript</span
-                    ><span class="btn">Bootstrap</span
-                    ><span class="btn">css</span>
-                    <span class="btn">html5</span>
-                  </p>
-                  <span class="btn"
-                    >See this work<i class="fas fa-arrow-circle-right"></i
-                  ></span>
-                </div>
-              </a>
-            </div>
-            <div class="project project11">
-              <a href="https://github.com/RuiyingTang/raverous">
-                <h4 class="uppercase project-title">Raverous</h4>
-                <div class="project-img">
-                  <img src="img/raverous.png" alt="Game" />
-                </div>
-                <div class="project-description">
-                  <p>
-                    <span class="btn">React.js</span><span class="btn">npm</span
-                    ><span class="btn">JavaScript</span
-                    ><span class="btn">fetch API</span>
-                    <span class="btn">html5</span><span class="btn">css</span>
-                  </p>
-                  <span class="btn"
-                    >See this work<i class="fas fa-arrow-circle-right"></i
-                  ></span>
-                </div>
-              </a>
-            </div>
-            <div class="project project12">
-              <a href="https://ruiyingtang.github.io/bar-chart/">
-                <h4 class="uppercase project-title">Bar-chart</h4>
-                <div class="project-img">
-                  <img src="img/bar-chart.png" alt="Bar-chart" />
-                </div>
-                <div class="project-description">
-                  <p>
-                    <span class="btn">Sass</span><span class="btn">scss</span
-                    ><span class="btn">css</span>
-                    <span class="btn">html5</span>
-                  </p>
-                  <span class="btn"
-                    >See this work<i class="fas fa-arrow-circle-right"></i
-                  ></span>
-                </div>
-              </a>
+                    >See this work<i
+                      class="fas fa-arrow-circle-right"
+                    ></i></span
+                ></a>
+              </div>
             </div>
           </div>
         </div>
@@ -324,6 +196,23 @@
             >
               CONTACT ME</a
             >
+            <p>
+              <a target="_blank" href="https://github.com/RuiyingTang"
+                ><i class="fab fa-git-square fa-2x"></i
+              ></a>
+              <a
+                target="_blank"
+                title="follow me on linkedin"
+                href="https://www.linkedin.com/in/ruiying-tang-19156b31/"
+                ><i class="fab fa-linkedin-in fa-2x"></i
+              ></a>
+              <a
+                target="_blank"
+                title="follow me on instagram"
+                href="https://www.instagram.com/yiyatanger/?hl=en"
+                ><i class="fab fa-instagram fa-2x"></i>
+              </a>
+            </p>
           </div>
         </div>
 
